@@ -1,0 +1,108 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: repeating-linear-gradient(to left, #267DE4, #5E54B5, #8E3090);
+}
+
+a{
+    color: #ffffff;
+    text-decoration: none;
+    transition: 0.3s;
+}
+a:hover{
+    opacity: 0.7;
+}
+.logo{
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: #23232e;
+    width: 100%;
+    height: 8vh;
+}
+.nav-list {
+    list-style: none;
+    display: flex;
+}
+.nav-list li {
+    letter-spacing: 3px;
+    margin-left: 32px;
+}
+main{
+    background-color: #202020;
+    margin: 20px;
+    border-radius: 20px;
+    box-shadow: 3px 4px 5px black;
+}
+.page1{
+    display: flex;
+    
+}
+.image1 {
+    margin-left: 10%;
+    margin-bottom: 18%;
+    box-shadow: none;
+}
+.introducao {
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 44px;
+    align-items: center;
+    margin: 18% 14% 30% 20%;
+    padding: 0%;
+}
+.container{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.imgicone{
+    box-shadow: 2px 2px 5px black;
+    border-radius: 10px;
+}
+.imgicone:hover{
+    opacity: 90%;
+    border: 2px solid rgb(57, 206, 243);
+}
+.imgicone:active{
+    box-shadow: none;
+}
+footer{
+    background-color: #262626;
+    padding: 20px 0;
+    font-family: "Open Sans";
+    color: #ffffff;
+    text-align: center;
+}
+h2{
+    text-align: center;
+    font-size: 70px;
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+}
+.post{
+    align-items: center;
+    text-align: center;
+}
+img{
+    margin: 20px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px black;
+}
+p{
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    font-size: 30px;
+    padding: 0px 320px 0px 320px;
+}
